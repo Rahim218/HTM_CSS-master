@@ -276,18 +276,24 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    position: relative;
 
-
-
-
+}
+.graduated-student::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.5;
 }
 
 .point {
     height: 550px;
     padding: 50px;
-    background-color: black;
-    opacity: 0.5;
+   
     position: relative;
 
 }
@@ -298,6 +304,7 @@
     justify-content: center;
     text-align: center;
     gap: 95px;
+    position: relative;
     
 
 }
@@ -307,7 +314,7 @@
     padding: 50px;
     width: 950px;
     margin: 0 auto;
-    
+    position: relative;
 
 }
 
