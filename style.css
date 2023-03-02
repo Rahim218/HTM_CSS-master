@@ -1,0 +1,642 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.top-bar span {
+    color: #323232;
+    display: inline-block;
+    font-family: visby cf, Sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.5em;
+    padding: 25px;
+
+
+
+}
+
+.center-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list ul {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+
+}
+
+.list {
+    margin-left: 5.5rem;
+}
+
+.list ul li a {}
+
+.list ul li a svg {
+    width: 16px;
+}
+
+.search-icon svg {
+    width: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn button {
+    background-color: #f9dd00;
+    border-radius: 0 0 0 0;
+    border: 1px solid #f9dd00;
+    color: black;
+    font-weight: 600;
+    ;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.lower-bar {
+
+    background-image: url(https://code.edu.az/wp-content/uploads/2022/04/Design_Web.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.lower-bar-nav {
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.lower-bar-nav .navbar ul {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.lower-bar-nav .navbar ul li a {
+    color: white;
+    font-weight: 600;
+}
+
+.logo {
+    margin: 12px 50px;
+}
+
+.lower-bar-nav .navbar {
+    margin: 25px;
+    padding-right: 35px;
+}
+
+.education-info {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    padding: 85px 120px;
+}
+
+
+.education-cards {
+    width: 42%;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+main {
+    height: 1250px;
+}
+
+.card {
+    border: 1px solid gray;
+    width: 250px;
+
+}
+
+.education-cards .card>div {
+    padding: 20px 20px 0;
+}
+
+.education-cards .card>div>h2 {
+    margin-top: 55px;
+    padding-bottom: 10px;
+}
+
+.education-area {
+    width: 450px;
+}
+
+.education-area h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: lowercase;
+    line-height: 1px;
+    letter-spacing: -1.2px;
+    padding-top: 15px;
+}
+
+.education-area h2 {
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 5rem;
+    letter-spacing: -.1px;
+}
+
+.education-area>img {
+    padding: 20px 0;
+}
+
+.education-area>p {
+
+    max-width: 100%;
+    font-size: 21px;
+    color: gray;
+}
+
+.question-content>h2 {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: lowercase;
+    letter-spacing: -1.5px;
+}
+
+.question-content>h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: lowercase;
+    line-height: 30px;
+    letter-spacing: -2.2px;
+    color: #333;
+    ;
+}
+
+.question-content {
+    padding: 85px 120px 0;
+    width: 70%;
+}
+
+.question-content>img {
+    padding: 40px 0;
+}
+
+.question-content>p {
+    font-size: 20px;
+    color: #333;
+    font-weight: 400;
+}
+
+.main-footer {
+    margin: 150px 0;
+    padding: 0 120px;
+}
+
+#info-carrds {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+}
+
+.info-card {
+    display: flex;
+    width: 50%;
+    margin-bottom: 85px;
+}
+
+.info-img>img {
+    width: 200px;
+}
+
+.info-title h3 {
+    color: #4a4a4a;
+    font-family: visby cf, Sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.info-title p {
+    line-height: 1.5em;
+    font-size: 17px;
+    color: #777;
+    margin-bottom: 25px;
+
+}
+
+.info-title {
+    width: 50%;
+    margin-left: 25px;
+}
+
+.info-title>a {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    color: #4a4a4a;
+    ;
+}
+
+.last-card {
+    display: inline-block;
+    margin-top: 23px;
+}
+
+.graduated-student {
+    background-image: url(https://2022.code.edu.az/wp-content/uploads/2021/09/code-academy-bg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
+
+.point {
+    height: 550px;
+    padding: 50px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.indicators {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 95px;
+
+}
+
+
+.title {
+    padding: 50px;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.title>h1 {
+    font-size: 21px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 1.33em;
+    color: #fff;
+    text-align: center;
+}
+
+.indicator span {
+    color: #fff;
+    font-family: "Visby CF", Sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    text-transform: lowercase;
+    line-height: 70px;
+    letter-spacing: -1.2px;
+
+}
+
+.indicator>div {
+
+    width: 250px;
+}
+
+.indicator>div>p {
+    color: #fff;
+    font-family: "Visby CF", Sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: lowercase;
+    line-height: 50px;
+    letter-spacing: -1.2px;
+    text-align: center;
+
+}
+
+.s95,
+.s427 {
+    display: inline-block;
+    margin-top: 45px;
+}
+
+.feedback {
+    padding: 100px 0 0 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mezun {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: lowercase;
+    line-height: 1.5px;
+    letter-spacing: 0.5px;
+    color: #777;
+}
+
+.rey {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: lowercase;
+    line-height: 1.5px;
+    letter-spacing: -1.2px;
+    margin-left: 15px;
+    color: #4a4a4a;
+}
+
+.feed-top {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.feed-top>p {
+    font-size: 1.4rem;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    color: #777;
+}
+
+.feed-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.feed-img>img {
+    width: 145px;
+    border-radius: 200px;
+}
+
+.feed-info {
+    margin-left: 35px;
+}
+
+.name {
+    font-size: 26px;
+    line-height: 1.5rem;
+    font-weight: 800;
+    color: #4a4a4a;
+
+}
+
+.position {
+    display: inline-block;
+    color: #777;
+    font-size: 17px;
+    margin-top: 10px;
+    padding-left: 2px;
+}
+
+#partnyor {
+    height: 650px;
+    padding: 120px 0 0 0;
+}
+
+.brand-top-title {
+    text-align: center;
+}
+
+.brand-top-title>h2 {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: lowercase;
+    letter-spacing: -1.5px;
+    color: #777;
+}
+
+.brand-top-title>h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: lowercase;
+    line-height: 10px;
+    letter-spacing: -1.2px;
+    color: #4a4a4a;
+}
+
+.brand-top-title>div {
+    width: 620px;
+    margin: 55px auto;
+}
+
+.brand-top-title>div>p {
+    color: #4a4a4a;
+    font-size: 19px;
+}
+
+.logo-img {
+    text-align: center;
+    padding: 0 0 55px 0;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+}
+
+.brand>a>img {
+    width: 155px;
+}
+
+.students-title {
+    text-align: center;
+}
+
+.students-title>h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: lowercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 52px;
+    letter-spacing: -1.2px;
+    color: #4a4a4a;
+}
+
+.students-title>h2 {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: lowercase;
+    line-height: 32px;
+    letter-spacing: -1.2px;
+    color: #777;
+}
+
+.yellow-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.yellow-line>div {
+    width: 150px;
+    height: 8px;
+    border-radius: 4px;
+    padding: 0 4px;
+    background-color: #f9dd00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 0;
+}
+
+.students-image {
+    text-align: center;
+
+}
+
+.student-image>a>img {
+    width: 245px;
+}
+
+#join {
+    background-color: #F4F5F8;
+    padding: 100px 200px;
+    margin-top: 125px;
+}
+
+.join {
+    display: flex;
+    padding-left: 25px 45px;
+}
+
+.join-question>h2 {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: lowercase;
+    line-height: 1.04em;
+    letter-spacing: -1.5px;
+    color: #4a4a4a;
+}
+
+.join-answer {
+    padding-left: 40px;
+}
+
+.join-answer>h2 {
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: lowercase;
+    line-height: 1.04em;
+    letter-spacing: -1.5px;
+    color: #333;
+}
+
+.join-answer>div {
+    width: 450px;
+    margin: 45px auto;
+}
+
+.join-answer>p {
+    line-height: 1.5;
+    font-size: 18px;
+    color: #4a4a4a;
+}
+
+form {
+    width: 450px;
+    margin-left: 95px;
+
+}
+
+.fullname {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.fullname>input {
+    width: 50%;
+    height: 55px;
+    border: 0px;
+
+
+}
+
+.fullname>input::placeholder {
+    font-size: 18px;
+    min-height: 59px;
+    padding: 7px 20px;
+}
+
+.number {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.number>select {
+    width: 25%;
+    height: 55px;
+    font-size: 18px;
+    padding: 7px 12px;
+    border: 0;
+
+}
+
+.number>input {
+    flex-grow: 1;
+    border: 0;
+}
+
+.number>input::placeholder {
+    font-size: 18px;
+    min-height: 59px;
+    padding: 7px 20px;
+}
+
+.education-area {
+    margin-bottom: 15px;
+}
+
+.education-area>select {
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    padding: 8px 12px;
+    border: 0;
+}
+
+.ask-btn {
+    width: 600px;
+    height: 100px;
+}
+
+.ask-btn>button {
+    border: 0;
+    background-color: #E99A00;
+    opacity: 0.8;
+    padding: 20px 192px;
+
+}
+
+.ask-btn>button>a {
+    color: #fff;
+}
+
