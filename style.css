@@ -38,7 +38,6 @@
     margin-left: 5.5rem;
 }
 
-.list ul li a {}
 
 .list ul li a svg {
     width: 16px;
@@ -79,6 +78,7 @@
     background-size: cover;
 
 }
+
 
 .lower-bar-nav {
     width: 77%;
@@ -123,14 +123,25 @@
 
 }
 
-main {
-    height: 1250px;
-}
+
 
 .card {
     border: 1px solid gray;
     width: 250px;
 
+}
+
+.card:hover {
+    transform: scale(1.1);
+    color: white;
+    z-index: 1;
+    box-shadow: 0 22px 33px 0 rgb(0 0 0 / 16%);
+    transition: .5s;
+    background: #872891 !important;
+}
+
+.card :hover svg path {
+    fill: #fff;
 }
 
 .education-cards .card>div {
@@ -265,6 +276,8 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
+
 
 
 
@@ -275,6 +288,8 @@ main {
     padding: 50px;
     background-color: black;
     opacity: 0.5;
+    position: relative;
+
 }
 
 .indicators {
@@ -283,6 +298,7 @@ main {
     justify-content: center;
     text-align: center;
     gap: 95px;
+    
 
 }
 
@@ -291,6 +307,8 @@ main {
     padding: 50px;
     width: 950px;
     margin: 0 auto;
+    
+
 }
 
 .title>h1 {
@@ -300,6 +318,9 @@ main {
     line-height: 1.33em;
     color: #fff;
     text-align: center;
+    position: relative;
+    z-index: 999;
+    
 }
 
 .indicator span {
@@ -640,3 +661,59 @@ form {
     color: #fff;
 }
 
+#footer {
+    width: 100%;
+    position: sticky;
+    bottom: 0.25rem;
+    width: 100%;
+    z-index: 1;
+
+}
+
+#join {
+    position: relative;
+    z-index: 5;
+
+}
+
+.footer-nav-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 150px 0 0px;
+    margin-top: 150px;
+    margin-bottom: 55px;
+
+}
+
+.footer-nav-center {
+    text-align: center;
+    background-color: #f4f5f8;
+    color: #4A4A4A;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 24px;
+    padding: 40px 0;
+}
+
+.footer-nav-bottom {
+    display: flex;
+}
+
+.footer-left ul li,
+.footer-center ul li,
+.footer-right ul li {
+    margin-top: 15px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    margin-right: 65px;
+}
+
+.footer-nav-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
